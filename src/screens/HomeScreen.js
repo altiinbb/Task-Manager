@@ -176,7 +176,7 @@ export default function HomeScreen({ navigation }) {
 
             <View style={{ gap: 6 }}>
               <TouchableOpacity onPress={() => toggleTask(item.id)}>
-                <Text>Activate</Text>
+                <Text>Complete</Text>
               </TouchableOpacity>
 
               <TouchableOpacity onPress={() => deleteTask(item.id)}>
